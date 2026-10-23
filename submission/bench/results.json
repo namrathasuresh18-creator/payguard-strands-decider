@@ -1,0 +1,566 @@
+{
+ "decider_model": "strands-decider-2b-hobson-v19",
+ "rows": [
+  {
+   "i": 0,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.8724
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.9033
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.841
+    }
+   },
+   "decider_ms": 3687.9582999972627,
+   "decider_server_ms": 2579.9,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 21645.46639996115,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 1,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.7548
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.7419
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.7635
+    }
+   },
+   "decider_ms": 3811.676500015892,
+   "decider_server_ms": 2861.8,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 18275.44619992841,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 2,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.7571
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.6774
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.7196
+    }
+   },
+   "decider_ms": 3422.289799898863,
+   "decider_server_ms": 2430.1,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.95
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 20742.89759993553,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 3,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.8299
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.9039
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.86
+    }
+   },
+   "decider_ms": 4234.794700052589,
+   "decider_server_ms": 2970.3,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 18479.54440000467,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 4,
+   "expected": {
+    "scam_signs": "yes",
+    "payee_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 0.9098
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 0.6292
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8358
+    }
+   },
+   "decider_ms": 3377.906300011091,
+   "decider_server_ms": 2509.2,
+   "llm": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 18331.702499999665,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 5,
+   "expected": {
+    "scam_signs": "yes",
+    "payee_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.5172
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.5299
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.875
+    }
+   },
+   "decider_ms": 3632.5114000355825,
+   "decider_server_ms": 2859.2,
+   "llm": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 19452.816299977712,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 6,
+   "expected": {
+    "scam_signs": "yes",
+    "payee_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 0.7619
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 0.6873
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8567
+    }
+   },
+   "decider_ms": 3278.654299909249,
+   "decider_server_ms": 2458.6,
+   "llm": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 18423.216399969533,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 7,
+   "expected": {
+    "scam_signs": "yes",
+    "payee_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 0.8762
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 0.5362
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.6487
+    }
+   },
+   "decider_ms": 3465.611799969338,
+   "decider_server_ms": 2507.0,
+   "llm": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 18247.824100079015,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 8,
+   "expected": {
+    "scam_signs": "yes",
+    "payee_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 0.6642
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 0.5554
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.7367
+    }
+   },
+   "decider_ms": 3874.4124999502674,
+   "decider_server_ms": 2949.3,
+   "llm": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 33385.27830003295,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 9,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.8048
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.6551
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8217
+    }
+   },
+   "decider_ms": 3679.682799964212,
+   "decider_server_ms": 2575.4,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 27099.503200035542,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 10,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.8089
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.6337
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.8577
+    }
+   },
+   "decider_ms": 3612.2052000137046,
+   "decider_server_ms": 2770.5,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 48760.12830005493,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 11,
+   "expected": {
+    "scam_signs": "yes",
+    "payee_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 0.6212
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 0.7107
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8275
+    }
+   },
+   "decider_ms": 3864.858299959451,
+   "decider_server_ms": 2943.4,
+   "llm": {
+    "scam_signs": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 27137.07689999137,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 12,
+   "expected": {
+    "scam_signs": "no",
+    "payee_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 0.7297
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 0.7175
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.834
+    }
+   },
+   "decider_ms": 3372.2323999973014,
+   "decider_server_ms": 2418.3,
+   "llm": {
+    "scam_signs": {
+     "label": "no",
+     "confidence": 1.0
+    },
+    "payee_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 29687.1511999052,
+   "llm_cost": 0.0
+  }
+ ],
+ "summary": {
+  "decider": {
+   "accuracy": 0.8462,
+   "decisions": 39,
+   "per_question": {
+    "scam_signs": 0.9231,
+    "payee_grounded": 0.7692,
+    "explicit_request": 0.8462
+   },
+   "latency_p50_ms": 3632.5,
+   "latency_p95_ms": 3874.4,
+   "usd_per_1k_decisions": 0.035,
+   "confident_share": 0.6923,
+   "accuracy_when_confident": 0.963,
+   "sent_to_human_at_threshold": 12
+  },
+  "llm": {
+   "accuracy": 0.9487,
+   "decisions": 39,
+   "per_question": {
+    "scam_signs": 1.0,
+    "payee_grounded": 0.8462,
+    "explicit_request": 1.0
+   },
+   "latency_p50_ms": 20742.9,
+   "latency_p95_ms": 33385.3,
+   "usd_per_1k_decisions": 0.0,
+   "confident_share": 1.0,
+   "accuracy_when_confident": 0.9487,
+   "sent_to_human_at_threshold": 0
+  },
+  "speedup_p50": 5.71
+ },
+ "threshold": 0.7,
+ "llm_model": "qwen3.5-4b",
+ "llm_provider": "ugmdu",
+ "llm_where": "AWS User Group Madurai cloud (qwen3.5-4b)",
+ "decider_url": "https://da25tnxy06gjk.cloudfront.net",
+ "decider_mode": "ugmdu",
+ "ran_at": 1792771907.0258963,
+ "split": "test"
+}

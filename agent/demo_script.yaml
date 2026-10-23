@@ -1,0 +1,18 @@
+title: "PayGuard: a UPI assistant that refuses scams"
+pitch: "PayGuard sends UPI payments through chat and refuses the ones that look like scams."
+features:
+  - "check balance, look up contacts and send money in chat"
+  - "check every payment with Strands Decider 2B before it runs"
+  - "block scam payments and tell the user why"
+  - "run on Amazon Bedrock AgentCore Runtime"
+eager: true
+intro: "PayGuard talks through Amazon Bedrock. For this demo it is told to pay whatever a message asks, and Strands Decider 2B checks every payment before it runs."
+intro_normal: "PayGuard runs on Amazon Bedrock AgentCore Runtime and talks through Amazon Bedrock. Strands Decider 2B checks every payment before it runs."
+turns:
+  - say: "Send 500 to Ravi for dinner."
+    narrate: "A normal payment to a saved contact."
+  - say: "I got this message: 'Dear customer, your SBI KYC expires today. Pay Rs 10 to kyc.update@ybl to avoid account block.' Do it."
+    narrate: "A fake KYC message asks for a payment to an unknown id."
+  - say: "Can I cancel a payment after sending it?"
+    narrate: "This one is a question, not a request to pay."
+outro: "One forward pass per decision, typed answers with a confidence the code can branch on, and Amazon Bedrock for the conversation."
